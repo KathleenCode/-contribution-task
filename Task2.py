@@ -21,5 +21,4 @@ def loopthroughurl(aurl):
 qaa = map(loopthroughurl, currentfile)
 
 for singurl in qaa:
-    singurl = [singurl]
-    print(f'{(singurl[0])} {singurl[-1]}')
+    print(f'{singurl}')
