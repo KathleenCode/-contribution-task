@@ -6,7 +6,6 @@ currentfile = currentfile.index[1:]
 
 def loopthroughurl(aurl):
     try:
-        aurl = str(aurl)
         response = requests.get(aurl)
         print(f"({response.status_code}), {aurl}")
     except Exception as e:
